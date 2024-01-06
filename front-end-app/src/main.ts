@@ -13,6 +13,7 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import ColumnGroup from 'primevue/columngroup';   
 import Row from 'primevue/row';   
+import Calendar from 'primevue/calendar';
 
 const app = createApp(App)
 app.config.globalProperties.hostname = "https://localhost:44354"
@@ -26,5 +27,6 @@ app.component('DataTableCustom', DataTable)
 app.component('ColumnCustom', Column)
 app.component('ColumnGroupCustom', ColumnGroup)
 app.component('RowCustom', Row)
+app.component('CalendarCustom', Calendar)
 app.mount('#app')
 
